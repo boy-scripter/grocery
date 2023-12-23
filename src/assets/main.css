@@ -1,0 +1,60 @@
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+  margin-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
+}
+
+.btn {
+  all: unset;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  background: #b14ee4;
+  box-shadow: 0px 5px 0px #9321ce;
+  display: inline-block;
+  color: #fff;
+}
+
+.btn:active {
+  top: 3px;
+  box-shadow: 0px 2px 0px #9321ce;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.router-link-exact-active {
+  background: #0075FF;
+  color: white;
+
+}
